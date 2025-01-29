@@ -1,0 +1,35 @@
+[17:55:48] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.4.0-SNAPSHOT (git-876b9c36-b465)...
+[17:55:48] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
+[17:55:48] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use kqueue channels, libdeflate (macOS ARM64 / Apple Silicon) compression, native (macOS ARM64 / Apple Silicon) ciphers
+[17:55:48] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
+[17:55:48] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 1 plugins
+[17:55:48] [Netty kqueue Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25565
+[17:55:48] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (0.69s)!
+[17:55:54] [Netty kqueue Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Smudgge (/192.168.0.80:62469) has connected
+[17:55:54] [Netty kqueue Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Smudgge -> server has connected
+[17:56:01] [Netty kqueue Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Smudgge (/192.168.0.80:62469) has disconnected
+[17:56:01] [Netty kqueue Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Smudgge -> server has disconnected
+[17:56:08] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: Exception in thread "main" java.io.IOError: java.io.IOException: Input/output error
+[17:56:08] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:170)
+[17:56:08] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:110)
+[17:56:08] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:61)
+[17:56:08] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.reader.impl.LineReaderImpl.doReadBinding(LineReaderImpl.java:923)
+[17:56:08] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.reader.impl.LineReaderImpl.readBinding(LineReaderImpl.java:956)
+[17:56:08] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:651)
+[17:56:08] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:468)
+[17:56:08] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:158)
+[17:56:08] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:141)
+[17:56:08] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at com.velocitypowered.proxy.Velocity.main(Velocity.java:77)
+[17:56:08] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: Caused by: java.io.IOException: Input/output error
+[17:56:08] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at java.base/java.io.FileInputStream.read0(Native Method)
+[17:56:08] [Shutdown thread/INFO] [com.velocitypowered.proxy.VelocityServer]: Shutting down the proxy...
+[17:56:08] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at java.base/java.io.FileInputStream.read(FileInputStream.java:231)
+[17:56:08] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:71)
+[17:56:08] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.terminal.impl.AbstractPty$1.read(AbstractPty.java:58)
+[17:56:08] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.terminal.impl.AbstractPty$PtyInputStream.read(AbstractPty.java:124)
+[17:56:08] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.utils.NonBlockingInputStream.read(NonBlockingInputStream.java:62)
+[17:56:08] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.utils.NonBlocking$NonBlockingInputStreamReader.read(NonBlocking.java:157)
+[17:56:08] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:56)
+[17:56:08] [Shutdown thread/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Closing endpoint /0.0.0.0:25565
+[17:56:08] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:160)
+[17:56:08] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	... 9 more
